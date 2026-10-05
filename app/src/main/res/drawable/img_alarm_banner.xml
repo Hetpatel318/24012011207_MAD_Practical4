@@ -1,0 +1,133 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="100dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+
+    <!-- Red Banner Background -->
+    <path
+        android:fillColor="#E53852"
+        android:pathData="M0,0h400v200h-400z" />
+
+    <!-- ================= LEFT ALARM CLOCK ================= -->
+    <!-- Bells -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M83,90 a14,14 0 1,1 20,-20 a14,14 0 0,1 -20,20 Z" />
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M117,70 a14,14 0 1,1 20,20 a14,14 0 0,1 -20,-20 Z" />
+    <!-- Feet -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M88,145 a7,7 0 1,1 10,10 a7,7 0 0,1 -10,-10 Z" />
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M122,145 a7,7 0 1,1 10,-10 a7,7 0 0,1 -10,10 Z" />
+    <!-- Outer Red Rim -->
+    <path
+        android:fillColor="#EE4B63"
+        android:pathData="M110,118 m-32,0 a32,32 0 1,0 64,0 a32,32 0 1,0 -64,0" />
+    <!-- Pink Face -->
+    <path
+        android:fillColor="#F8BBD0"
+        android:pathData="M110,118 m-26,0 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0" />
+    <!-- Face dots -->
+    <path
+        android:fillColor="#880E4F"
+        android:pathData="M110,96m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0 M110,140m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0 M88,118m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0 M132,118m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0" />
+    <!-- Hands -->
+    <path
+        android:strokeColor="#00BCD4"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M110,118 L98,106 M110,118 L122,110" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M110,118 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- ================= RIGHT ALARM CLOCK ================= -->
+    <!-- Bells -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M263,90 a14,14 0 1,1 20,-20 a14,14 0 0,1 -20,20 Z" />
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M297,70 a14,14 0 1,1 20,20 a14,14 0 0,1 -20,-20 Z" />
+    <!-- Feet -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M268,145 a7,7 0 1,1 10,10 a7,7 0 0,1 -10,-10 Z" />
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M302,145 a7,7 0 1,1 10,-10 a7,7 0 0,1 -10,10 Z" />
+    <!-- Outer Red Rim -->
+    <path
+        android:fillColor="#EE4B63"
+        android:pathData="M290,118 m-32,0 a32,32 0 1,0 64,0 a32,32 0 1,0 -64,0" />
+    <!-- Pink Face -->
+    <path
+        android:fillColor="#F8BBD0"
+        android:pathData="M290,118 m-26,0 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0" />
+    <!-- Face dots -->
+    <path
+        android:fillColor="#880E4F"
+        android:pathData="M290,96m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0 M290,140m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0 M268,118m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0 M312,118m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0" />
+    <!-- Hands -->
+    <path
+        android:strokeColor="#00BCD4"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M290,118 L278,106 M290,118 L302,110" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M290,118 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- ================= CENTER ALARM CLOCK ================= -->
+    <!-- Left Bell -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M165,65 a20,20 0 1,1 30,-22 a20,20 0 0,1 -30,22 Z" />
+    <!-- Right Bell -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M205,43 a20,20 0 1,1 30,22 a20,20 0 0,1 -30,-22 Z" />
+    <!-- Left Foot -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M168,152 a10,10 0 1,1 15,12 a10,10 0 0,1 -15,-12 Z" />
+    <!-- Right Foot -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M217,164 a10,10 0 1,1 15,-12 a10,10 0 0,1 -15,12 Z" />
+
+    <!-- Outer Red Body -->
+    <path
+        android:fillColor="#E53852"
+        android:pathData="M200,105 m-52,0 a52,52 0 1,0 104,0 a52,52 0 1,0 -104,0" />
+    <!-- Red Outer Ring -->
+    <path
+        android:fillColor="#F0526B"
+        android:pathData="M200,105 m-47,0 a47,47 0 1,0 94,0 a47,47 0 1,0 -94,0" />
+
+    <!-- White / Light Face -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M200,105 m-40,0 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0" />
+
+    <!-- Hour Dots -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M200,71m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0 M200,139m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0 M166,105m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0 M234,105m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0 M217,76m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0 M229,88m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0 M229,122m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0 M217,134m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0 M183,134m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0 M171,122m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0 M171,88m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0 M183,76m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+    <!-- Clock Hands (Cyan) -->
+    <path
+        android:strokeColor="#00BCD4"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M200,105 L180,85 M200,105 L224,93" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M200,105 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+
+</vector>
