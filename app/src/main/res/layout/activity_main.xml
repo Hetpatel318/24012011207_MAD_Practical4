@@ -31,7 +31,8 @@
                     android:contentDescription="@string/alarm_banner_desc"
                     android:scaleType="centerCrop"
                     android:src="@drawable/img_alarm_banner"
-                    app:layout_constraintEnd_toEndOf="parent"                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
@@ -44,7 +45,8 @@
                     android:textColor="?attr/colorOnSurface"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    app:layout_constraintStart_toStartOf="parent"               app:layout_constraintTop_toBottomOf="@id/ivBanner1" />
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/ivBanner1" />
                 <TextView
                     android:id="@+id/tvDesc1"
                     android:layout_width="0dp"
@@ -52,10 +54,12 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="6dp"
                     android:layout_marginEnd="16dp"
-                    android:text="@string/by_pressing_buttons_alarm_can_be_created_and_cancelled"                   android:textColor="?attr/colorOnSurfaceVariant"
+                    android:text="@string/by_pressing_buttons_alarm_can_be_created_and_cancelled"
+                    android:textColor="?attr/colorOnSurfaceVariant"
                     android:textSize="14sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"                   app:layout_constraintTop_toBottomOf="@id/tvCreateAlarmTitle" />
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvCreateAlarmTitle" />
 
                 <TextView
                     android:id="@+id/tvDesc2"
@@ -64,10 +68,12 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginEnd="16dp"
-                    android:text="@string/check_current_time_by_looking_below_real_digital_clock"                   android:textColor="?attr/colorOnSurfaceVariant"
+                    android:text="@string/check_current_time_by_looking_below_real_digital_clock"
+                    android:textColor="?attr/colorOnSurfaceVariant"
                     android:textSize="14sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"                app:layout_constraintTop_toBottomOf="@id/tvDesc1" />
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvDesc1" />
                 <TextClock
                     android:id="@+id/tvDigitalClock"
                     android:layout_width="0dp"
@@ -82,7 +88,9 @@
                     android:textSize="16sp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"                    app:layout_constraintTop_toBottomOf="@id/tvDesc2" />               <com.google.android.material.button.MaterialButton
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvDesc2" />
+                <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnCreateAlarm"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -98,7 +106,8 @@
                 app:iconGravity="textStart"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"                   app:layout_constraintTop_toBottomOf="@id/tvDigitalClock" />
+                app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvDigitalClock" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
@@ -134,7 +143,8 @@
                     android:textColor="?attr/colorOnSurface"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"                   app:layout_constraintTop_toBottomOf="@id/ivBanner2" />
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/ivBanner2" />
 
                 <TextView
                     android:id="@+id/tvSetAlarmTime"
@@ -146,7 +156,8 @@
                     android:textSize="18sp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"                app:layout_constraintTop_toBottomOf="@id/tvSetAlarmLabel" />
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvSetAlarmLabel" />
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnCancelAlarm"
                     android:layout_width="0dp"
@@ -163,7 +174,8 @@
                     app:iconGravity="textStart"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"                   app:layout_constraintTop_toBottomOf="@id/tvSetAlarmTime" />
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvSetAlarmTime" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </com.google.android.material.card.MaterialCardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
