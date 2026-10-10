@@ -19,10 +19,10 @@ The application integrates core Android framework components:
 
 ## 📸 Screenshots & UI Flow
 
-| 1. Main Screen | 2. Time Picker Dialog | 3. Alarm Set (Active) | 4. Alarm Cancelled |
-| :---: | :---: | :---: | :---: |
-| <img src="gradle/screenshots/img.png" width="220"/> | <img src="gradle/screenshots/img_1.png" width="220"/> | <img src="gradle/screenshots/img_2.png" width="220"/> | <img src="gradle/screenshots/img_3.png" width="220"/> |
-| Live digital clock & "Create Alarm" button | 12-hour AM/PM dialog for user time selection | Scheduled time & toast notification | Alarm stopped & card dismissed |
+| 1. Main Screen |                 2. Time Picker Dialog                 | 3. Alarm Set (Active) |                  4. Alarm Cancelled                   |
+| :---: |:-----------------------------------------------------:| :---: |:-----------------------------------------------------:|
+| <img src="gradle/screenshots/img.png" width="220"/> | <img src="gradle/screenshots/img_3.png" width="220"/> | <img src="gradle/screenshots/img_2.png" width="220"/> | <img src="gradle/screenshots/img_1.png" width="220"/> |
+| Live digital clock & "Create Alarm" button |     12-hour AM/PM dialog for user time selection      | Scheduled time & toast notification |            Alarm stopped & card dismissed             |
 
 ---
 
